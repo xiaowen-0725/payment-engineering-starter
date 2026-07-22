@@ -45,6 +45,7 @@ src/
   webhooks/      Webhook 验签和事件处理
   dead-letter/   最小化失败记录
 test/            当前已有测试
+docs/            解决方案文档与 AI 会话文档
 ```
 
 ## 实战规则
@@ -58,10 +59,12 @@ test/            当前已有测试
 ## 提交要求
 
 1. 将原项目、代码修改、新增测试和文档一起保存在你创建的公开仓库中。
-2. 增加能够证明生产问题修复及多渠道关键行为的测试。
-3. 完整填写 [`SUBMISSION.md`](./SUBMISSION.md)。
-4. 推送最终代码，并通过飞书提交仓库地址和最终 commit hash。
-5. AI 对话截图或导出记录通过飞书单独提交，不要放进公开仓库。
+2. 完整填写 [`SUBMISSION.md`](./SUBMISSION.md)。
+3. 提交解决方案文档，可使用 [`docs/SOLUTION.md`](./docs/SOLUTION.md) 或其他格式。
+4. 提交经过脱敏的 AI 会话文档，可使用 [`docs/AI_CONVERSATION.md`](./docs/AI_CONVERSATION.md) 或其他格式。
+5. 推送最终代码，并通过飞书提交仓库地址和最终 commit hash。
+
+公开仓库中不要包含密钥、账号、客户数据、其他项目代码或个人敏感信息。
 
 评分以规定时间内提交的最终 commit 为准，后续提交不会纳入本次结果。
 
